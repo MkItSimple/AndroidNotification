@@ -25,7 +25,7 @@ public class NotificationHelper {
                         .setSmallIcon(R.drawable.ic_notification)
                         .setContentTitle(title)
                         .setContentText(body)
-                        .setContentIntent(pendingIntent)
+                        .setContentIntent(pendingIntent) // so when notification clicked
                         .setAutoCancel(true)
                         .setPriority(NotificationCompat.PRIORITY_HIGH);
 
