@@ -17,7 +17,7 @@ public class NotificationHelper {
                 context,
                 100,
                 intent,
-                PendingIntent.FLAG_CANCEL_CURRENT
+                PendingIntent.FLAG_CANCEL_CURRENT //
         );
 
         NotificationCompat.Builder mBuilder =
