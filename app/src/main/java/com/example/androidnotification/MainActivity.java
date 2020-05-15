@@ -142,17 +142,4 @@ public class MainActivity extends AppCompatActivity {
             startProfileActivity();
         }
     }
-
-    private void displayNotification(){
-
-        NotificationCompat.Builder mBuilder =
-                new NotificationCompat.Builder(this, MainActivity.CHANNEL_ID)
-                        .setSmallIcon(R.drawable.ic_notification)
-                        .setContentTitle("Hurray! It is working...")
-                        .setContentText("Your first notification..")
-                        .setPriority(NotificationCompat.PRIORITY_DEFAULT);
-
-        NotificationManagerCompat notificationManagerCompat = NotificationManagerCompat.from(this);
-        notificationManagerCompat.notify(1, mBuilder.build());
-    }
 }
