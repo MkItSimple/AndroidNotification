@@ -50,11 +50,11 @@ public class ProfileActivity extends AppCompatActivity {
         super.onStart();
 
         // if not logged in redirect to login activity
-        if (mAuth.getCurrentUser() == null) {
-            Intent intent = new Intent(this, MainActivity.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-        }
+//        if (mAuth.getCurrentUser() == null) {
+//            Intent intent = new Intent(this, MainActivity.class);
+//            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+//            startActivity(intent);
+//        }
     }
 
     private void saveToken(String token) {

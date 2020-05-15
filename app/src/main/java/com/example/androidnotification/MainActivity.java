@@ -138,8 +138,8 @@ public class MainActivity extends AppCompatActivity {
         super.onStart();
 
         // if logged in
-        if (mAuth.getCurrentUser() != null) {
-            startProfileActivity();
-        }
+//        if (mAuth.getCurrentUser() != null) {
+//            startProfileActivity();
+//        }
     }
 }
